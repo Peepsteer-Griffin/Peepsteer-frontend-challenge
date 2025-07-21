@@ -103,6 +103,7 @@ Here is an example of the data structure inside `/data/searchData.json`:
     }
   ]
 }
+```
 
 ## 📝 Reflection
 
@@ -127,4 +128,7 @@ This challenge should take approximately **4.5 to 6 hours** to complete, includi
 ---
 
 If you have any questions, feel free to ask! Good luck and have fun building!
+
+```
+
 ```
