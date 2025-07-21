@@ -1,6 +1,33 @@
 # 📚 BookStream Frontend Challenge
 
-Welcome to the BookStream Frontend Developer Challenge! This test is designed to assess your ability to work with React and JSON data to build a simple but functional search interface.
+Welcome to the **BookStream Frontend Developer Challenge**! This project is designed to evaluate your skills in React and working with JSON data to create a functional and user-friendly search interface.
+
+---
+
+## 🚀 Getting Started
+
+To begin the challenge:
+
+1. **Fork this repository** to your own GitHub account.
+2. Clone your forked repository to your local machine:
+
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/bookstream-frontend-challenge.git
+   ```
+
+3. Navigate into the project directory
+   ```bash
+   cd bookstream-frontend-challenge/starter-code
+   ```
+4. Install dependencies
+   ```bash
+   npm install
+   ```
+5. Start the development server
+   ```bash
+   npm start
+
+   ```
 
 ---
 
