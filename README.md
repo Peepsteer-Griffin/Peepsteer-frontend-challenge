@@ -1,6 +1,6 @@
-# 📚 BookStream Frontend Challenge
+# 📚 Peepsteer Frontend Challenge
 
-Welcome to the **BookStream Frontend Developer Challenge**! This project is designed to evaluate your skills in React and working with JSON data to create a functional and user-friendly search interface.
+Welcome to the **Peepsteer Frontend Developer Challenge**! This project is designed to evaluate your skills in React and working with JSON data to create a functional and user-friendly search interface.
 
 ---
 
@@ -24,6 +24,7 @@ To begin the challenge:
    npm install
    ```
 5. Start the development server
+
    ```bash
    npm start
 
@@ -33,54 +34,48 @@ To begin the challenge:
 
 ## 🧠 The Goal
 
-Your task is to build a **search results page** using the provided React starter code and sample data.
+Build a React page that displays a list of authors (users) and books from the provided JSON data.
 
-The user should be able to:
-
-- Search using a search bar.
-- View matching **users (authors)** _first_, followed by matching **books**.
-- See clean, consistent layout cards for each result.
+- The page should show **all users and books initially**.
+- Include a **search bar with a submit button**.
+- When a search term is submitted, **filter the users and books** by matching the `user_name` or `book_title` fields.
+- Show matching results in any order or grouped by type.
+- Handle missing or null data gracefully (e.g., missing profile images or book covers).
 
 ---
 
 ## 📁 Provided
 
-- A React app scaffold inside the `/starter-code` directory.
-- A JSON file (`/data/searchData.json`) containing:
-  - A list of `users` (authors)
-  - A list of `books`
-- A set of profile and cover images in the `/assets/` folder.
-- Optional inspiration image of the mobile app search page.
+- React app scaffold inside the `/starter-code` directory.
+- Sample JSON data file at `/data/searchData.json`, containing:
+  - A small list of users (authors).
+  - A small list of books.
+- Profile and cover images in `/assets/` folder.
 
 ---
 
 ## 🔍 Requirements
 
-### ✅ Core Functionality
+### Core Features (Must Do)
 
-- [ ] Build a page that displays **all users and books** when no search term is entered.
-- [ ] Add a **search bar** to filter results in real-time or on input.
-- [ ] When search is active:
-  - [ ] Show matching **users first**
-  - [ ] Then show matching **books**
-  - [ ] Matching should check `name`, `title`, and other text fields as appropriate
-- [ ] Handle **missing/null values** in the data gracefully (e.g. no profile image, missing region).
+- Render all users and books on initial load.
+- Add a search bar with a submit button.
+- Filter users and books by `user_name` or `book_title` when the search is submitted.
+- Display filtered results clearly, grouped or mixed.
+- Gracefully handle missing/null data fields such as images or descriptions.
 
-### ⚙️ Optional Bonus Features
+### UI Expectations
 
-You may implement any of the following **only if you want to go above and beyond**:
-
-- [ ] Add **filters** (e.g. by `region`, `dateCreated`, or other fields).
-- [ ] Add sort functionality (e.g. alphabetically or by date).
-- [ ] Responsive styling.
-
-These are totally optional and not expected. We care more about quality and clarity than complexity.
+- Build your own CSS and layout — no pre-styled components are provided.
+- Create clean, consistent card components for users and books.
+- Pay attention to spacing, typography, and overall UI clarity.
+- Responsive design is optional but welcome.
 
 ---
 
 ## 🧪 Data Sample
 
-You’ll find the data in `/data/searchData.json`, that'll look something like this:
+Here is an example of the data structure inside `/data/searchData.json`:
 
 ```json
 {
@@ -90,7 +85,7 @@ You’ll find the data in `/data/searchData.json`, that'll look something like t
       "book_title": "The Magician’s Nephew",
       "chapter_count": 15,
       "page_count": 221,
-      "book_description": "When Digory and Polly are tricked by Digory’s peculiar Uncle Andrew into becoming part of an experiment, they set off on the adventure of a lifetime. What happens to the children when they touch Uncle Andrew’s magic rings is far beyond anything even the old magician could have imagined. Hurtled into the Wood between the Worlds, the children soon find that they can enter many worlds through the mysterious pools there. In one world they encounter the evil Queen Jadis, who wreaks havoc in the streets of London when she is accidentally brought back with them. When they finally manage to pull her out of London, unintentionally taking along Uncle Andrew and a coachman with his horse, they find themselves in what will come to be known as the land of Narnia.",
+      "book_description": "When Digory and Polly are tricked by Digory’s peculiar Uncle Andrew into becoming part of an experiment...",
       "cover_image": null,
       "genre_tags": "Children,Fantasy",
       "createdAt": "2025-06-11T02:58:27.000Z",
@@ -108,8 +103,28 @@ You’ll find the data in `/data/searchData.json`, that'll look something like t
     }
   ]
 }
-```
 
 ## 📝 Reflection
 
-Once finished with this challenge, please include a reflection in this README.md below, answering, in a few simple sentences, what you would improve upon if given more time to work on this project.
+Once you finish, please include a short reflection in this README below describing what you would improve or add if you had more time.
+
+---
+
+## 🕒 Estimated Time
+
+This challenge should take approximately **4.5 to 6 hours** to complete, including writing your own CSS and handling missing data gracefully.
+
+---
+
+## 🎯 What We Are Looking For
+
+- Proper React fundamentals: component structure, state management, controlled inputs.
+- Clean and reusable UI components.
+- Thoughtful error handling for missing/null data.
+- Well-structured and readable code.
+- Attention to UI design, layout, and user experience.
+
+---
+
+If you have any questions, feel free to ask! Good luck and have fun building!
+```
