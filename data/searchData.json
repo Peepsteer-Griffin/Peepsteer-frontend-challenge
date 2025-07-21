@@ -1,0 +1,82 @@
+{
+  "books": [
+    {
+      "id": "52eddf60-398a-4839-85ab-a186dd4d66d2",
+      "book_title": "The Magician’s Nephew",
+      "chapter_count": 15,
+      "page_count": 221,
+      "book_description": "When Digory and Polly are tricked by Digory’s peculiar Uncle Andrew into becoming part of an experiment, they set off on the adventure of a lifetime. What happens to the children when they touch Uncle Andrew’s magic rings is far beyond anything even the old magician could have imagined. Hurtled into the Wood between the Worlds, the children soon find that they can enter many worlds through the mysterious pools there. In one world they encounter the evil Queen Jadis, who wreaks havoc in the streets of London when she is accidentally brought back with them. When they finally manage to pull her out of London, unintentionally taking along Uncle Andrew and a coachman with his horse, they find themselves in what will come to be known as the land of Narnia.",
+      "cover_image": null,
+      "genre_tags": "Children,Fantasy",
+      "createdAt": "2025-06-11T02:58:27.000Z",
+      "updatedAt": "2025-06-11T02:58:27.000Z",
+      "authorId": "d952198d-09e0-4a3e-8712-2ebe2865eb55"
+    },
+    {
+      "id": "5b8a599a-22ae-4ae3-91fe-f347ff279df3",
+      "book_title": "The Nameless City",
+      "chapter_count": null,
+      "page_count": 19,
+      "book_description": "Often considered as Lovecraft's first Cthulhu Mythos story, The Nameless City is an ancient ruin located somewhere in the deserts of the Arabian Peninsula and is older than any human civilization. In ancient times, the city was built and inhabited by an unnamed race of reptiles with a body shaped like a cross between a crocodile and a seal with a strange head common to neither, involving a protruding forehead, horns, lack of a nose and an alligator-like jaw. These beings moved by crawling; thus, the architecture of the city has very low ceilings and some places are too low for a human being to stand upright. Their city was originally coastal, but when the seas receded it was left in the depths of a desert. This resulted in the decline and eventual ruin of the city.",
+      "cover_image": "Cover3.jpg",
+      "genre_tags": "Horror,Supernatural,Short Story",
+      "createdAt": "2025-06-11T02:58:27.000Z",
+      "updatedAt": "2025-06-11T02:58:27.000Z",
+      "authorId": "d5ce7ee4-7215-4133-befb-7a35b432fa81"
+    },
+    {
+      "id": "673d9600-a671-469e-85e1-7958132a357f",
+      "book_title": "Maiwa’s Revenge",
+      "chapter_count": 29,
+      "page_count": null,
+      "book_description": "After a day’s worth of shooting at his estate, legendary hunter Allan Quatermain settles down, lights a pipe, and tells his companions of a journey he undertook in the wilds of Africa. On expedition, Quatermain, while searching for ivory, meets Maiwa, a runaway African princess who is intent on avenging her child. She also carries a desperate note from an old friend, once thought dead. Braving buffalo, rhinos, elephants, and rivaling tribes, Quatermain finds himself in the middle of a plot to wage war on the notorious African chief Wambe.",
+      "cover_image": "Cover1.jpeg",
+      "genre_tags": null,
+      "createdAt": "2025-06-11T02:58:27.000Z",
+      "updatedAt": "2025-06-11T02:58:27.000Z",
+      "authorId": "979c650b-f1f5-402f-ba27-65ed0110a585"
+    },
+    {
+      "id": "6a338afb-3c0d-49ab-a149-c18d0245eecc",
+      "book_title": "Of Mice and Men",
+      "chapter_count": null,
+      "page_count": 118,
+      "book_description": null,
+      "cover_image": "Cover2.jpg",
+      "genre_tags": "Fiction",
+      "createdAt": "2025-06-11T02:58:27.000Z",
+      "updatedAt": "2025-06-11T02:58:27.000Z",
+      "authorId": "d5ce7ee4-7215-4133-befb-7a35b432fa81"
+    }
+  ],
+  "users": [
+    {
+      "id": "eb0ae7d8-4eb2-44d4-a098-30ea4f45ad92",
+      "user_name": "Angela Parker",
+      "user_region": "Colorado",
+      "user_description": "Rad media for adventurers",
+      "user_profile_image": "Profile3.jpg"
+    },
+    {
+      "id": "7c410486-57e1-4557-8fde-c7becc04ab89",
+      "user_name": "Melissa Smith",
+      "user_region": "NYC",
+      "user_description": "Entrepreneur, innovator, reader.",
+      "user_profile_image": "Profile1.jpg"
+    },
+    {
+      "id": "6f05eed0-2ae7-45fd-b31d-f8c3dbd75174",
+      "user_name": "Melanie Cunningham",
+      "user_region": null,
+      "user_description": null,
+      "user_profile_image": "Profile2.jpg"
+    },
+    {
+      "id": "d5ce7ee4-7215-4133-befb-7a35b432fa81",
+      "user_name": "Rebeccah Barbara",
+      "user_region": "Austin",
+      "user_description": "I’m a professional bookworm with a PHD in fictional heartbreak and a major in yelling at characters who make terrible life choices. Just like my book choices, I run 🌶️ 🌶️ 🌶️",
+      "user_profile_image": null
+    }
+  ]
+}
